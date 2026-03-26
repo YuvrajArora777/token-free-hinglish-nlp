@@ -1,5 +1,24 @@
 # Token-Free Modeling for Hinglish NLP: A Noise-Robust Benchmark Using Byte and Character-Level Models
 
+---
+
+## 📄 IEEE Copyright Notice
+
+**This work is copyrighted by IEEE and has been accepted for oral presentation at the 2026 IEEE International Conference on Interdisciplinary Approaches in Technology and Management for Social Innovation (IATMSI). The paper is currently under review for publication.**
+
+**Copyright © 2026 IEEE. All rights reserved.**
+
+### Authors' Retained Rights
+Per IEEE policy, the authors (Yuvraj Arora, Vishwanath Bijalwan, Gurpreet Singh) retain the following rights:
+- ✅ Post this accepted manuscript on institutional/personal servers with IEEE copyright notice
+- ✅ Use portions for teaching, training, and future research
+- ✅ Include material in derivative works and future publications
+- ✅ Fulfill government funding deposit requirements
+
+For full terms, see [LICENSE](LICENSE) and [NOTICE.md](NOTICE.md).
+
+---
+
 ## Abstract
 
 This repository studies robustness in Hinglish (Hindi-English code-mixed) text classification under realistic noise perturbations. We benchmark one token-based baseline (mBERT) against two token-free alternatives (CANINE-S and ByT5-small) and demonstrate that **token-free models significantly outperform subword tokenization under noisy inputs**. We introduce the **Noise Robustness Index (NRI)** as a standardized metric for evaluating model stability under realistic corruption (typos, casing shifts, emoji insertion, transliteration variation). Our findings highlight the importance of subword-free architectures for deploying reliable multilingual NLP systems in informal, noisy, low-resource contexts.
