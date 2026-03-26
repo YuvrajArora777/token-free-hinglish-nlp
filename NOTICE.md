@@ -57,11 +57,11 @@ Authors whose work was performed under government funding may fulfill deposit ma
 
 ---
 
-## OPEN SOURCE CODE POLICY (If Applicable)
+## CODE LICENSING
 
-If this repository contains original software developed by the authors independently, those portions retain author copyright and may be licensed under MIT or other open-source licenses, **provided they are clearly delineated and do not incorporate IEEE-copyrighted material**.
+**All code in this repository is covered by IEEE copyright.** No portions are available under open-source licenses (MIT, Apache, GPL) without IEEE permission.
 
-Consult IEEE documentation for details on code licensing within IEEE-submitted papers.
+Authors retain the right to reuse code in their own future works, subject to IEEE policies.
 
 ---
 

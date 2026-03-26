@@ -441,5 +441,5 @@ For questions, suggestions, or collaboration:
 
 ## License
 
-MIT License — See [LICENSE](LICENSE) for full text.
+This work is copyrighted by IEEE. See [LICENSE](LICENSE) and [NOTICE.md](NOTICE.md) for full terms and author-retained rights.
 
