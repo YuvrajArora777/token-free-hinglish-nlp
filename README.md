@@ -12,18 +12,28 @@ How much robustness do token-free models retain under noisy Hinglish compared wi
 - ByT5-small: byte-level token-free model
 
 ## Key Results
-Final Noise Robustness Index (NRI):
+Final Noise Robustness Index (NRI) from `results/metrics/final_nri.json`.
 
-| Model | Clean Acc | Noisy Acc | NRI (%) |
-|------|-----------|-----------|---------|
-| mBERT | 95.7% | 1.49% | **1.56%** |
-| CANINE-S | 93.7% | 52.9% | **56.4%** |
-| ByT5-small | 29.7% | 27.3% | **91.9%** |
+High-noise condition (strictest split):
+
+| Model | Clean Acc | Noisy High Acc | NRI High (%) |
+|------|-----------|----------------|--------------|
+| mBERT | 94.86% | 66.70% | **70.31%** |
+| CANINE-S | 93.41% | 87.92% | **94.12%** |
+| ByT5-small | 94.89% | 90.08% | **94.93%** |
+
+All noise levels:
+
+| Model | Noisy Low Acc | NRI Low (%) | Noisy Medium Acc | NRI Medium (%) |
+|------|----------------|-------------|------------------|----------------|
+| mBERT | 87.78% | 92.54% | 79.49% | 83.80% |
+| CANINE-S | 92.48% | 99.00% | 91.20% | 97.63% |
+| ByT5-small | 94.47% | 99.56% | 92.68% | 97.67% |
 
 Interpretation:
-- mBERT achieves high clean accuracy but collapses under noise.
-- CANINE-S preserves substantially better robustness.
-- ByT5-small has the strongest relative robustness retention (highest NRI).
+- All models degrade with increasing noise, but token-free models remain more stable.
+- CANINE-S and ByT5-small outperform mBERT under medium and high perturbation settings.
+- ByT5-small has the highest high-noise NRI in this run.
 
 ## Method Summary
 1. Build validated clean train/validation/test splits from human-annotated data.
