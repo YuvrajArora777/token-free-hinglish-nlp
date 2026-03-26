@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "Token-Free Modeling for Hinglish NLP: A Noise-Robust Benchmark Using Byte and Character-Level Models"
+message: "If you use this repository, please cite it using this metadata."
+type: software
+authors:
+  - family-names: Arora
+    given-names: Yuvraj
+repository-code: "https://github.com/YuvrajArora777/token-free-hinglish-nlp"
+license: MIT
+keywords:
+  - hinglish
+  - code-mixed nlp
+  - robustness
+  - mbert
+  - canine
+  - byt5
+abstract: "Benchmarking token-based and token-free models for robust Hinglish NLP under realistic noise perturbations."
+version: 1.0.0
+date-released: 2026-03-26
