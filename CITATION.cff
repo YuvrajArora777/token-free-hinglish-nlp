@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 title: "Token-Free Modeling for Hinglish NLP: A Noise-Robust Benchmark Using Byte and Character-Level Models"
-message: "If you use this repository, please cite it using this metadata. Copyright held by IEEE."
+message: "If you use this repository, please cite it as follows. Code is MIT; Paper is © IEEE."
 type: software
 authors:
   - family-names: Arora
@@ -10,7 +10,7 @@ authors:
   - family-names: Singh
     given-names: Gurpreet
 repository-code: "https://github.com/YuvrajArora777/token-free-hinglish-nlp"
-license: LicenseRef-IEEE
+license: "MIT"
 keywords:
   - hinglish
   - code-mixed nlp
@@ -23,4 +23,4 @@ version: 1.0.0
 date-released: 2026-03-26
 conference:
   name: "2026 IEEE International Conference on Interdisciplinary Approaches in Technology and Management for Social Innovation (IATMSI)"
-  status: "Accepted for oral presentation; under review for publication"
+  status: "Accepted for oral presentation (camera-ready in progress)"

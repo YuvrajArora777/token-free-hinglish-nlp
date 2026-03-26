@@ -1,10 +1,12 @@
 # Token-Free Modeling for Hinglish NLP: A Noise-Robust Benchmark Using Byte and Character-Level Models
 
+🚀 **First systematic study demonstrating token-free models outperform subword models in noisy Hinglish NLP.**
+
 ---
 
 ## 📄 IEEE Copyright Notice
 
-**This work is copyrighted by IEEE and has been accepted for oral presentation at the 2026 IEEE International Conference on Interdisciplinary Approaches in Technology and Management for Social Innovation (IATMSI). The paper is currently under review for publication.**
+**This work is copyrighted by IEEE and has been accepted for oral presentation at the 2026 IEEE International Conference on Interdisciplinary Approaches in Technology and Management for Social Innovation (IATMSI).**
 
 **Copyright © 2026 IEEE. All rights reserved.**
 
@@ -16,6 +18,16 @@ Per IEEE policy, the authors (Yuvraj Arora, Vishwanath Bijalwan, Gurpreet Singh)
 - ✅ Fulfill government funding deposit requirements
 
 For full terms, see [LICENSE](LICENSE) and [NOTICE.md](NOTICE.md).
+
+---
+
+## ⚡ TL;DR
+
+- **Token-free models (ByT5, CANINE) outperform mBERT under noise**
+- **mBERT drops to ~70% robustness in high-noise settings**
+- **ByT5 retains ~95% performance under severe perturbations**
+- Character/byte-level architectures gracefully handle Hinglish noise (typos, emoji, code-mixing, transliteration)
+- Practical implications: Deploy token-free models for reliable multilingual NLP in informal, noisy, low-resource settings
 
 ---
 
@@ -423,7 +435,7 @@ Or use the CITATION.cff file directly.
 
 ## 📄 Paper Status
 
-**Paper:** Under submission (IEEE) — will be updated upon acceptance.
+**📄 Paper: Accepted at IEEE IATMSI 2026 (camera-ready in progress)**
 
 Contributions welcome via:
 - Issues: Bug reports, questions, clarifications
@@ -441,5 +453,6 @@ For questions, suggestions, or collaboration:
 
 ## License
 
-This work is copyrighted by IEEE. See [LICENSE](LICENSE) and [NOTICE.md](NOTICE.md) for full terms and author-retained rights.
+**Code: MIT License** — See [LICENSE](LICENSE) for full text.  
+**Paper & Results: © 2026 IEEE** — See [LICENSE](LICENSE) and [NOTICE.md](NOTICE.md) for terms and author-retained rights.
 

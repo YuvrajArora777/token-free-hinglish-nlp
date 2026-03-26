@@ -59,9 +59,11 @@ Authors whose work was performed under government funding may fulfill deposit ma
 
 ## CODE LICENSING
 
-**All code in this repository is covered by IEEE copyright.** No portions are available under open-source licenses (MIT, Apache, GPL) without IEEE permission.
+**Source code in this repository is licensed under the MIT License.**
 
-Authors retain the right to reuse code in their own future works, subject to IEEE policies.
+Authors grant permission for code to be freely used, modified, and distributed under MIT terms.
+
+**Paper, documentation, results, and findings remain © 2026 IEEE** and are not covered by MIT license. These require IEEE permission for redistribution.
 
 ---
 

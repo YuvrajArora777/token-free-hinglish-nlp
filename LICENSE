@@ -1,39 +1,66 @@
-IEEE COPYRIGHT NOTICE
+## Code License
 
-Copyright © 2026 IEEE. All Rights Reserved.
+**Source code in this repository is licensed under the MIT License.**
 
-This work has been submitted to the IEEE for publication and is pending acceptance for publication by IEEE.
+- You are free to use, modify, and distribute the code.
+- See below for full MIT terms.
+
+---
+
+## Paper & Content License
+
+**The research paper, documentation text, results, and findings are © 2026 IEEE.**
+
+- These are NOT covered by the MIT License.
+- Redistribution of the published paper or major results requires IEEE permission.
+- Authors retain academic reuse rights per IEEE policy (see details below).
 
 **Paper Details:**
 - Title: Token-Free Modeling for Hinglish NLP: A Noise-Robust Benchmark Using Byte and Character-Level Models
 - Authors: Yuvraj Arora (first author), Vishwanath Bijalwan, Gurpreet Singh
 - Venue: 2026 IEEE International Conference on Interdisciplinary Approaches in Technology and Management for Social Innovation (IATMSI)
-- Status: Accepted for oral presentation; under review
+- Status: **Accepted at IEEE IATMSI 2026** (camera-ready in progress)
 
 ---
 
-## AUTHOR RETAINED RIGHTS
+## MIT License (Source Code Only)
 
-Per IEEE PSPB Operations Manual Section 8.1.3 and the signed Copyright Transfer Agreement, authors retain the right to:
+MIT License
 
-1. **Post on personal/institutional servers**: The accepted version may be posted without IEEE permission, provided IEEE copyright notice and full citation are prominently displayed.
+Copyright (c) 2026 Yuvraj Arora
 
-2. **Use in teaching and training**: Authors may use portions for lectures, courses, institutional training, and conference presentations.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-3. **Reuse in future works**: Authors may include material from this work in derivative works and future publications, acknowledging IEEE copyright.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-4. **Fulfill government funding mandates**: If work was government-funded, authors may deposit with required repositories.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 ---
 
-## LIMITATIONS
+## IEEE Authors' Retained Rights
 
-- No commercial redistribution without IEEE permission
-- No open-source relicensing (MIT, Apache, GPL) of IEEE-copyrighted content
-- Third-party reuse requests must go to IEEE Intellectual Property Rights Office
+Per IEEE PSPB Operations Manual Section 8.1.3, authors retain the right to:
 
-For full terms and conditions, see NOTICE.md
+1. **Post manuscripts on personal/institutional servers** with IEEE copyright notice and full citation
+2. **Use in teaching and training** (lectures, courses, institutional training)
+3. **Reuse in derivative works** and future publications (acknowledging IEEE copyright)
+4. **Fulfill government funding deposit mandates** if applicable
 
 ---
 
-IEEE Intellectual Property Rights: copyrights@ieee.org
+## Contact
+
+- **IEEE Copyright Office:** copyrights@ieee.org, +1-732-562-3966
+- **For questions about this repository:** See NOTICE.md for full terms
