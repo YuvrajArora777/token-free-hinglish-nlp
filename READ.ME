@@ -1,0 +1,106 @@
+# Token-Free Robust NLP for Hinglish (Code-Mixed Hindi-English)
+
+## 🚀 Overview
+This research project studies **token-based** vs **token-free** models on Hinglish text:
+- **mBERT** (Subword)
+- **CANINE-S** (Character)
+- **ByT5-small** (Byte-Level)
+
+Goal: Evaluate **robustness to real-world noise** (typos, emojis, casing, transliteration).
+
+---
+
+## 📁 Project Structure
+```
+hinglish-nlp/
+├── data/
+│   ├── human_annotated/
+│   ├── noisy_synthetic/
+│   └── noisy_humanlike/
+├── models/
+│   ├── mbert/
+│   ├── canine/
+│   └── byt5/
+├── results/
+│   ├── metrics/
+│   ├── charts/
+│   └── logs/
+├── scripts/
+│   ├── 00_reset_project.py
+│   ├── 01_create_datasets.py
+│   ├── 02_generate_noise.py
+│   ├── 03_train_mbert.py
+│   ├── 04_train_canine.py
+│   ├── 05_train_byt5.py
+│   ├── 06_evaluate_models.py
+│   ├── 07_visualize_results.py
+│   └── 08_verify_integrity.py
+```
+
+---
+
+## 🧪 Workflow
+### 0️⃣ Reset Project
+```
+python scripts/00_reset_project.py
+```
+
+### 1️⃣ Validate Clean Dataset
+```
+python scripts/01_create_datasets.py
+```
+
+### 2️⃣ Create Noise Variants
+```
+python scripts/02_generate_noise.py
+```
+
+### 3️⃣ Train All Models
+```
+python scripts/03_train_mbert.py
+python scripts/04_train_canine.py
+python scripts/05_train_byt5.py
+```
+
+### 4️⃣ Evaluate Noise Robustness
+```
+python scripts/06_evaluate_models.py
+```
+
+### 5️⃣ Visualize Results
+```
+python scripts/07_visualize_results.py
+```
+
+### 6️⃣ Verify Integrity
+```
+python scripts/08_verify_integrity.py
+```
+
+---
+
+## 📊 Results Summary
+Final Noise Robustness Index (NRI):
+
+| Model | Clean Acc | Noisy Acc | NRI (%) |
+|------|-----------|------------|----------|
+| mBERT | 95.7% | 1.49% | **1.56%** |
+| CANINE | 93.7% | 52.9% | **56.4%** |
+| ByT5 | 29.7% | 27.3% | **91.9%** |
+
+---
+
+## 🛡 Reproducibility
+This project includes:
+- SHA-256 file integrity manifest  
+- Environment lock file  
+- Complete script diff checker  
+- Dataset sanity audit  
+
+---
+
+## 📝 Citation
+*“Token-Free Robust NLP for Hinglish Code-Mixed Data” — Yuvraj Arora (2025)*
+
+📄 Paper: Under submission (IEEE) — will be updated upon acceptance
+
