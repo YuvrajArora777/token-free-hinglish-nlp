@@ -6,7 +6,9 @@
 
 ## 📄 IEEE Copyright Notice
 
-**This work is copyrighted by IEEE and has been accepted for oral presentation at the 2026 IEEE International Conference on Interdisciplinary Approaches in Technology and Management for Social Innovation (IATMSI).**
+**This work is copyrighted by IEEE and has been published in the proceedings of the 2026 IEEE International Conference on Interdisciplinary Approaches in Technology and Management for Social Innovation (IATMSI).**
+
+**[Official Published Paper on IEEE Xplore](https://ieeexplore.ieee.org/document/11465891)**
 
 **Copyright © 2026 IEEE. All rights reserved.**
 
@@ -435,7 +437,7 @@ Or use the CITATION.cff file directly.
 
 ## 📄 Paper Status
 
-**📄 Paper: Accepted at IEEE IATMSI 2026 (camera-ready in progress)**
+**📄 Paper: Published in IEEE Xplore — [View Publication](https://ieeexplore.ieee.org/document/11465891)**
 
 Contributions welcome via:
 - Issues: Bug reports, questions, clarifications
